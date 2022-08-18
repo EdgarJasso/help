@@ -1,0 +1,27 @@
+- php --version
+- composer --version
+- composer create-project laravel/laravel mi-proyecto-laravel
+-php artisan serve
+- php artisan make:migration [nombre]
+- php artisan migrate
+- php require laravel/ui
+- php artisan ui bootstrap --auth
+- npm install
+- npm run dev
+- en index @extends('layouts.template')
+- composer require ibex/crud-generator --dev
+- php artisan vendor:publich --tag=crud
+- php artisan make:crud proyectos
+- 
+- 
+
+
+
+
+- php artisan make:model [nombre_de_Modelo_en_Singular] -a
+- php artisan make:controller [nombre_de_Controller] --model=[Modelo_que_se_conectara_con_el_controller]
+- php artisan migrate:fresh --seed
+- php artisan make:request [nombre]
+- php artisan make:resource [nombre_EstoCreara_7_rutasBasicasCRUD]
+- php artisan route:list
+- php artisan make:component [nombre].
